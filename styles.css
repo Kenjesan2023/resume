@@ -6,7 +6,7 @@
         color: #000; /* Set the default font color to black */
     }
 
-    .header {
+.header {
     background-color: rgb(92, 64, 51);
     color: #fff;
     padding: 20px;
@@ -14,8 +14,16 @@
     width: 80%;
     height: 10cm; /* Adjust the height as needed, for example, to 10 centimeters (2 thumbs) */
     display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
 }
+
+.header h1 {
+    flex-grow: 1; /* Occupy the available vertical space within the header */
+    margin: 0; /* Remove any default margin on the h1 element */
+}
+
 
     .circle-frame {
         width: 150px;
