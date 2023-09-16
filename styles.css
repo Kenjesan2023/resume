@@ -3,6 +3,7 @@
         font-family: Arial, sans-serif;
         margin: 0;
         padding: 0;
+        color: #000; /* Set the default font color to black */
     }
 
     .header {
@@ -52,6 +53,7 @@
         background-color: rgb(92, 64, 51);
         border: 1px solid #ccc;
         border-radius: 5px;
+        color: #000; /* Set the font color to black for the boxes */
     }
 
     .box-title {
