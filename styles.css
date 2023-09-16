@@ -1,10 +1,10 @@
 <style>
-    body {
-        font-family: Arial, sans-serif;
-        margin: 0;
-        padding: 0;
-        color: #000; /* Set the default font color to black */
-    }
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #000; /* Set the default font color to black */
+}
 
 .header {
     background-color: rgb(92, 64, 51);
@@ -18,7 +18,6 @@
     justify-content: center;
     align-items: center;
     margin-bottom: 40px; /* Add margin at the bottom to create space */
-
 }
 
 .header h1 {
@@ -26,9 +25,7 @@
     margin: 0; /* Remove any default margin on the h1 element */
     background-color: rgb(92, 64, 51); /* Set the background color */
     color: #fff; /* Set the text color to white for contrast */
-
 }
-
 
 .circle-frame {
     width: 150px;
@@ -37,52 +34,55 @@
     border-radius: 50%;
     overflow: hidden;
     margin-right: 20px; /* Add margin to the right for spacing */
-    }
+}
 
-    .circle-frame img {
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-    }
+.circle-frame img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
 
-    .container {
-        max-width: 8.5in; /* Set the max-width to match letter-sized bond paper */
-        margin: 16px auto;
-        padding: 20px;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-        border: 1px solid #ccc;
-    }
+.container {
+    max-width: 8.5in; /* Set the max-width to match letter-sized bond paper */
+    margin: 16px auto;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border: 1px solid #ccc;
+}
 
-    .boxes {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-    }
+.boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
 
-    .box {
-        flex: 0 0 calc(33.333% - 10px);
-        margin-bottom: 20px;
-        padding: 15px;
-        background-color: #FFFEE0; /* Set the background color to light yellow */
-        border: 1px solid #ccc;
-        border-radius: 5px;
-        color: #000; /* Set the font color to black for the boxes */
-    }
+.box {
+    flex: 0 0 calc(33.333% - 10px);
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #FFFEE0; /* Set the background color to light yellow */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    color: #000; /* Set the font color to black for the boxes */
+}
 
-    .box-title {
-        font-weight: bold;
-        margin-bottom: 10px;
-        text-align: center;
-    }
+.box-title {
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+}
 
-    .left-boxes {
-        margin-right: 10px;
-    }
+.left-boxes {
+    margin-right: 10px;
+}
 
-    .right-boxes {
-        margin-left: 10px;
-    }
-    .h2 {
-  background-color: 65350F;
-    }
+.right-boxes {
+    margin-left: 10px;
+}
+
+/* Apply background color to all h2 elements */
+h2 {
+    background-color: #65350F;
+}
+
 </style>
