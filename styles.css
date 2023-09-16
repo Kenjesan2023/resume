@@ -19,6 +19,34 @@
         border: 1px solid #ccc;
         height: 1100px; /* Set the height to match the size of a short bond paper (8.5 inches x 11 inches) */
     }
+    .boxes {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        .box {
+            flex: 0 0 calc(33.333% - 10px); /* Three boxes in a row with spacing */
+            margin-bottom: 20px;
+            padding: 15px;
+            background-color: #f4f4f4; /* Light gray background color for boxes */
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .box-title {
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        /* Add some spacing between the left and right sets of boxes */
+        .left-boxes {
+            margin-right: 10px;
+        }
+
+        .right-boxes {
+            margin-left: 10px;
+        }
 
     /* The rest of your CSS remains the same */
 </style>
