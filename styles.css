@@ -10,9 +10,9 @@
         color: #fff;
         padding: 20px;
         text-align: center;
-        width: 50%; /* Adjusted width to 50% */
-        display: flex; /* Use flexbox for layout */
-        align-items: center; /* Vertically align content in the header */
+        width: 50%;
+        display: flex;
+        align-items: center;
     }
 
     .circle-frame {
@@ -21,22 +21,22 @@
         background-color: #fff;
         border-radius: 50%;
         overflow: hidden;
-        margin-right: 20px; /* Add margin to the right for spacing */
+        margin-right: 20px;
     }
 
     .circle-frame img {
-        width: 100%; /* Ensure the image fills the circular frame */
+        width: 100%;
         height: 100%;
-        object-fit: cover; /* Preserve aspect ratio while covering the frame */
+        object-fit: cover;
     }
 
     .container {
         max-width: 1000px;
-        margin: 16px auto; /* Add margin for spacing from the header */
+        margin: 16px auto;
         padding: 20px;
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
         border: 1px solid #ccc;
-        height: 1100px; /* Set the height to match the size of a short bond paper (8.5 inches x 11 inches) */
+        /* height: 1100px; Remove the fixed height */
     }
 
     .boxes {
@@ -46,10 +46,10 @@
     }
 
     .box {
-        flex: 0 0 calc(33.333% - 10px); /* Three boxes in a row with spacing */
+        flex: 0 0 calc(33.333% - 10px);
         margin-bottom: 20px;
         padding: 15px;
-        background-color: rgb(92, 64, 51); /* Light gray background color for boxes */
+        background-color: rgb(92, 64, 51);
         border: 1px solid #ccc;
         border-radius: 5px;
     }
@@ -60,7 +60,6 @@
         text-align: center;
     }
 
-    /* Add some spacing between the left and right sets of boxes */
     .left-boxes {
         margin-right: 10px;
     }
@@ -68,6 +67,4 @@
     .right-boxes {
         margin-left: 10px;
     }
-
-    /* The rest of your CSS remains the same */
 </style>
