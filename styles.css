@@ -25,12 +25,13 @@
 }
 
 
-    .circle-frame {
-        width: 150px;
-        height: 150px;
-        background-color: #fff;
-        border-radius: 50%;
-        overflow: hidden;
+.circle-frame {
+    width: 150px;
+    height: 150px;
+    background-color: #fff;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 20px; /* Add margin to the right for spacing */
     }
 
     .circle-frame img {
