@@ -5,30 +5,30 @@
         padding: 0;
     }
 
- .header {
-    background-color: rgb(92, 64, 51);
-    color: #fff;
-    padding: 20px;
-    text-align: center;
-    width: 50%;
-    display: flex; /* Use flexbox for layout */
-    align-items: center; /* Vertically align content in the header */
-}
+    .header {
+        background-color: rgb(92, 64, 51);
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+        width: 50%; /* Adjusted width to 50% */
+        display: flex; /* Use flexbox for layout */
+        align-items: center; /* Vertically align content in the header */
+    }
 
-.circle-frame {
-    width: 150px;
-    height: 150px;
-    background-color: #fff;
-    border-radius: 50%;
-    overflow: hidden;
-    margin-right: 20px; /* Add margin to the right for spacing */
-}
+    .circle-frame {
+        width: 150px;
+        height: 150px;
+        background-color: #fff;
+        border-radius: 50%;
+        overflow: hidden;
+        margin-right: 20px; /* Add margin to the right for spacing */
+    }
 
-.circle-frame img {
-    width: 100%; /* Ensure the image fills the circular frame */
-    height: 100%;
-    object-fit: cover; /* Preserve aspect ratio while covering the frame */
-}
+    .circle-frame img {
+        width: 100%; /* Ensure the image fills the circular frame */
+        height: 100%;
+        object-fit: cover; /* Preserve aspect ratio while covering the frame */
+    }
 
     .container {
         max-width: 1000px;
