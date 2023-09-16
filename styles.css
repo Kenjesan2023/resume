@@ -4,51 +4,53 @@
         margin: 0;
         padding: 0;
     }
-      .header {
-            background-color: rgb(92, 64, 51);
-            color: #fff;
-            padding: 20px;
-            text-align: center;
-            width: 80%;
-        }
+
+    .header {
+        background-color: rgb(92, 64, 51);
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+        width: 80%;
+    }
 
     .container {
         max-width: 1000px;
-        margin: 0 auto;
-        padding: 20px; 
+        margin: 16px auto; /* Add margin for spacing from the header */
+        padding: 20px;
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
         border: 1px solid #ccc;
         height: 1100px; /* Set the height to match the size of a short bond paper (8.5 inches x 11 inches) */
     }
+
     .boxes {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: space-between;
-        }
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
 
-        .box {
-            flex: 0 0 calc(33.333% - 10px); /* Three boxes in a row with spacing */
-            margin-bottom: 20px;
-            padding: 15px;
-            background-color: rgb(92, 64, 51); /* Light gray background color for boxes */
-            border: 1px solid #ccc;
-            border-radius: 5px;
-        }
+    .box {
+        flex: 0 0 calc(33.333% - 10px); /* Three boxes in a row with spacing */
+        margin-bottom: 20px;
+        padding: 15px;
+        background-color: rgb(92, 64, 51); /* Light gray background color for boxes */
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
 
-        .box-title {
-            font-weight: bold;
-            margin-bottom: 10px;
-            text-align: center;
-        }
+    .box-title {
+        font-weight: bold;
+        margin-bottom: 10px;
+        text-align: center;
+    }
 
-        /* Add some spacing between the left and right sets of boxes */
-        .left-boxes {
-            margin-right: 10px;
-        }
+    /* Add some spacing between the left and right sets of boxes */
+    .left-boxes {
+        margin-right: 10px;
+    }
 
-        .right-boxes {
-            margin-left: 10px;
-        }
+    .right-boxes {
+        margin-left: 10px;
+    }
 
     /* The rest of your CSS remains the same */
 </style>
