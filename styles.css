@@ -50,35 +50,45 @@ body {
     border: 1px solid #ccc;
 }
 
-.boxes {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
+/* ... Your existing styles ... */
 
-.box {
-    flex: 0 0 calc(33.333% - 10px);
-    margin-bottom: 20px;
-    padding: 15px;
-    background-color: #FFFEE0; /* Set the background color to light yellow */
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    color: #000; /* Set the font color to black for the boxes */
-}
-
-.box-title {
-    font-weight: bold;
-    margin-bottom: 10px;
+/* Add a common class for box headers */
+.box-header {
+    background-color: #1B0000; /* Set the header background color */
+    color: #fff; /* Set the text color in the header */
+    padding: 10px; /* Adjust padding as needed */
+    border-radius: 5px 5px 0 0; /* Round the top corners */
     text-align: center;
 }
 
-.left-boxes {
-    margin-right: 10px;
+/* Style the headers for left-boxes and right-boxes */
+.left-boxes .box-header {
+    border-bottom: 1px solid #ccc; /* Add a bottom border to separate header from content */
 }
 
-.right-boxes {
-    margin-left: 10px;
+.right-boxes .box-header {
+    border-bottom: 1px solid #ccc; /* Add a bottom border to separate header from content */
 }
+
+/* Update the box-title styles to remove margin and change font-weight */
+.box-title {
+    font-weight: normal; /* Remove bold font-weight */
+    margin: 0; /* Remove margin */
+    text-align: center;
+}
+
+/* Adjust box padding */
+.box {
+    flex: 0 0 calc(33.333% - 10px);
+    margin-bottom: 20px;
+    background-color: #FFFEE0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    color: #000;
+}
+
+/* ... Your existing styles ... */
+
 
 /* Apply background color to all h2 elements */
 h2 {
