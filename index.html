@@ -3,212 +3,116 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href='https://fonts.googleapis.com/css?family=Lato:400,300,700' rel='stylesheet' type='text/css'>
+    <title>My Resume</title>
     <style>
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-html {
-  height: 100%;  
-}
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
 
-body {
-  min-height: 100%;  
-  background: #eee;
-  font-family: 'Lato', sans-serif;
-  font-weight: 400;
-  color: #222;
-  font-size: 14px;
-  line-height: 26px;
-  padding-bottom: 50px;
-}
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
 
-.container {
-  max-width: 700px;   
-  background: #fff;
-  margin: 0px auto 0px; 
-  box-shadow: 1px 1px 2px #DAD7D7;
-  border-radius: 3px;  
-  padding: 40px;
-  margin-top: 50px;
-}
+        h1 {
+            color: #333;
+        }
 
-.header {
-  margin-bottom: 30px;
-  
-  .full-name {
-    font-size: 40px;
-    text-transform: uppercase;
-    margin-bottom: 5px;
-  }
-  
-  .first-name {
-    font-weight: 700;
-  }
-  
-  .last-name {
-    font-weight: 300;
-  }
-  
-  .contact-info {
-    margin-bottom: 20px;
-  }
-  
-  .email ,
-  .phone {
-    color: #999;
-    font-weight: 300;
-  } 
-  
-  .separator {
-    height: 10px;
-    display: inline-block;
-    border-left: 2px solid #999;
-    margin: 0px 10px;
-  }
-  
-  .position {
-    font-weight: bold;
-    display: inline-block;
-    margin-right: 10px;
-    text-decoration: underline;
-  }
-}
+        .header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
 
+        .contact-info {
+            margin-top: 20px;
+        }
 
-.details {
-  line-height: 20px;
-  
-  .section {
-    margin-bottom: 40px;  
-  }
-  
-  .section:last-of-type {
-    margin-bottom: 0px;  
-  }
-  
-  .section__title {
-    letter-spacing: 2px;
-    color: #54AFE4;
-    font-weight: bold;
-    margin-bottom: 10px;
-    text-transform: uppercase;
-  }
-  
-  .section__list-item {
-    margin-bottom: 40px;
-  }
-  
-  .section__list-item:last-of-type {
-    margin-bottom: 0;
-  }
-  
-  .left ,
-  .right {
-    vertical-align: top;
-    display: inline-block;
-  }
-  
-  .left {
-    width: 60%;    
-  }
-  
-  .right {
-    tex-align: right;
-    width: 39%;    
-  }
-  
-  .name {
-    font-weight: bold;
-  }
-  
-  a {
-    text-decoration: none;
-    color: #000;
-    font-style: italic;
-  }
-  
-  a:hover {
-    text-decoration: underline;
-    color: #000;
-  }
-  
-  .skills {
-    
-  }
-    
-  .skills__item {
-    margin-bottom: 10px;  
-  }
-  
-  .skills__item .right {
-    input {
-      display: none;
-    }
-    
-    label {
-      display: inline-block;  
-      width: 20px;
-      height: 20px;
-      background: #C3DEF3;
-      border-radius: 20px;
-      margin-right: 3px;
-    }
-    
-    input:checked + label {
-      background: #79A9CE;
-    }
-  }
-}
+        .section {
+            margin: 20px 0;
+        }
+
+        .section-title {
+            font-weight: bold;
+        }
+
+        .section-content {
+            margin-top: 10px;
+        }
+
+        ul {
+            list-style-type: disc;
+            margin-left: 20px;
+        }
+
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .skill {
+            background-color: #333;
+            color: #fff;
+            padding: 5px 10px;
+            margin: 5px;
+            border-radius: 3px;
+        }
+
+        .footer {
+            text-align: center;
+            margin-top: 20px;
+            color: #777;
+        }
     </style>
-    <title>Your Resume</title>
 </head>
 <body>
     <div class="container">
         <div class="header">
-            <div class="full-name">
-                <span class="first-name">John</span>
-                <span class="last-name">Doe</span>
-            </div>
-            <div class="contact-info">
-                <span class="email">Email: </span>
-                <span class="email-val">john.doe@gmail.com</span>
-                <span class="separator"></span>
-                <span class="phone">Phone: </span>
-                <span class="phone-val">111-222-3333</span>
-            </div>
-
-            <div class="about">
-                <span class="position">Front-End Developer </span>
-                <span class="desc">
-                    I am a front-end developer with more than 3 years of experience writing html, css, and js. I'm motivated, result-focused and seeking a successful team-oriented company with the opportunity to grow.
-                </span>
-            </div>
+            <h1>John Doe</h1>
+            <p>Front-End Developer</p>
         </div>
-        <div class="details">
-            <!-- Your resume details here -->
+
+        <div class="contact-info">
+            <p>Email: john.doe@example.com</p>
+            <p>Phone: (123) 456-7890</p>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">Summary</h2>
+            <p class="section-content">
+                I am a skilled front-end developer with a passion for creating responsive and user-friendly web applications.
+            </p>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">Experience</h2>
+            <ul class="section-content">
+                <li>Web Developer at ABC Company (2018 - Present)</li>
+                <li>Front-End Developer at XYZ Agency (2016 - 2018)</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">Skills</h2>
+            <div class="section-content skills">
+                <div class="skill">HTML</div>
+                <div class="skill">CSS</div>
+                <div class="skill">JavaScript</div>
+                <div class="skill">React</div>
+                <div class="skill">Responsive Design</div>
+            </div>
         </div>
     </div>
 
-    <script>
-        <!-- Include the JavaScript file -->
-<script src="script.js"></script>
-  
-        // Function to toggle checkbox styles
-        function toggleCheckboxStyles() {
-            const checkboxes = document.querySelectorAll('input[type="checkbox"]');
-            checkboxes.forEach(checkbox => {
-                checkbox.addEventListener('change', () => {
-                    const label = checkbox.nextElementSibling;
-                    label.style.background = checkbox.checked ? '#79A9CE' : '#C3DEF3';
-                });
-            });
-        }
-
-        // Call the function to initialize checkbox styles
-        toggleCheckboxStyles();
-    </script>
+    <div class="footer">
+        &copy; 2023 John Doe
+    </div>
 </body>
 </html>
