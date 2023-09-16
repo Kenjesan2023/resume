@@ -15,8 +15,7 @@
     .container {
         max-width: 800px;
         margin: 0 auto;
-        padding: 20px;
-        background-color: gray; /* Set the background color to gray */
+        padding: 20px; 
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
         border: 1px solid #ccc;
         height: 1100px; /* Set the height to match the size of a short bond paper (8.5 inches x 11 inches) */
