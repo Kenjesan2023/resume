@@ -11,8 +11,8 @@
     color: #fff;
     padding: 20px;
     text-align: center;
-    width: 80%;
-    height: 10cm; /* Adjust the height as needed, for example, to 10 centimeters (2 thumbs) */
+    width: 100%;
+    height: 6cm; /* Adjust the height as needed, for example, to 10 centimeters (2 thumbs) */
     display: flex;
     flex-direction: column;
     justify-content: center;
