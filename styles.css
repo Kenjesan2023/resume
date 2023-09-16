@@ -3,25 +3,18 @@
         font-family: Arial, sans-serif;
         margin: 0;
         padding: 0;
-        background-size: cover;
+        background-color: gray; /* Set the background color to gray */
     }
 
     .container {
         max-width: 800px;
         margin: 0 auto;
         padding: 20px;
-        background-color: gray; /* Add a semi-transparent white background over the wood texture */
+        background-color: gray; /* Set the background color to gray */
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
         border: 1px solid #ccc;
-    }
-
-    .header {
-        background-color: #d2b48c; /* Pastel brown color */
-        color: #fff;
-        padding: 20px;
-        text-align: center;
+        height: 1100px; /* Set the height to match the size of a short bond paper (8.5 inches x 11 inches) */
     }
 
     /* The rest of your CSS remains the same */
 </style>
-
