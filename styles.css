@@ -10,7 +10,7 @@
     color: #fff;
     padding: 20px;
     text-align: center;
-    width: 80%;
+    width: 50%;
     display: flex; /* Use flexbox for layout */
     align-items: center; /* Vertically align content in the header */
 }
