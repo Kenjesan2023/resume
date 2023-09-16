@@ -9,7 +9,7 @@
             color: #fff;
             padding: 20px;
             text-align: center;
-             width: 80%;
+            width: 80%;
         }
 
     .container {
@@ -30,7 +30,7 @@
             flex: 0 0 calc(33.333% - 10px); /* Three boxes in a row with spacing */
             margin-bottom: 20px;
             padding: 15px;
-            background-color: #f4f4f4; /* Light gray background color for boxes */
+            background-color: rgb(92, 64, 51); /* Light gray background color for boxes */
             border: 1px solid #ccc;
             border-radius: 5px;
         }
@@ -38,6 +38,7 @@
         .box-title {
             font-weight: bold;
             margin-bottom: 10px;
+            text-align: center;
         }
 
         /* Add some spacing between the left and right sets of boxes */
