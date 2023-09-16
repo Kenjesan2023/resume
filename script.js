@@ -2,7 +2,7 @@
 
 // Function to be executed when the page loads
 function onPageLoad() {
-    alert("Welcome to My Resume Page!");
+    alert("View my Resume?");
 }
 
 // Add an event listener to call onPageLoad when the page finishes loading
