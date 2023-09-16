@@ -1,0 +1,20 @@
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-image: url('wooden-background.jpg'); /* Replace 'wooden-background.jpg' with your actual image file */
+        background-size: cover;
+    }
+
+    .container {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: rgba(255, 255, 255, 0.8); /* Add a semi-transparent white background over the wood texture */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        border: 1px solid #ccc;
+    }
+
+    /* The rest of your CSS remains the same */
+</style>
