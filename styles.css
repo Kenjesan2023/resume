@@ -5,12 +5,21 @@
         padding: 0;
     }
 
-    .header {
-        background-color: rgb(92, 64, 51);
-        color: #fff;
-        padding: 20px;
-        text-align: center;
-        width: 80%;
+   .header {
+    background-color: rgb(92, 64, 51);
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    width: 80%;
+   }
+
+.circle-frame {
+    width: 150px; /* Adjust the width and height as needed */
+    height: 150px;
+    background-color: #fff;
+    border-radius: 50%; /* Create a circular shape */
+    margin: 0 auto; /* Center the circular frame horizontally */
+    overflow: hidden; /* Hide any content that goes beyond the circular frame */
     }
 
     .container {
