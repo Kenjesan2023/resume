@@ -5,22 +5,30 @@
         padding: 0;
     }
 
-   .header {
+ .header {
     background-color: rgb(92, 64, 51);
     color: #fff;
     padding: 20px;
     text-align: center;
-    width: 100%;
-   }
+    width: 80%;
+    display: flex; /* Use flexbox for layout */
+    align-items: center; /* Vertically align content in the header */
+}
 
 .circle-frame {
-    width: 150px; /* Adjust the width and height as needed */
+    width: 150px;
     height: 150px;
     background-color: #fff;
-    border-radius: 50%; /* Create a circular shape */
-    margin: 0 auto; /* Center the circular frame horizontally */
-    overflow: hidden; /* Hide any content that goes beyond the circular frame */
-    }
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 20px; /* Add margin to the right for spacing */
+}
+
+.circle-frame img {
+    width: 100%; /* Ensure the image fills the circular frame */
+    height: 100%;
+    object-fit: cover; /* Preserve aspect ratio while covering the frame */
+}
 
     .container {
         max-width: 1000px;
