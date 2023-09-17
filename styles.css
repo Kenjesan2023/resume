@@ -16,8 +16,8 @@ body {
     width: 20.5cm; /* Set the width to 2 rulers (30cm each) */
     height: 4cm; /* Set the height to 3cm */
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    flex-direction: row; /* Align content horizontally */
+    justify-content: space-between; /* Space elements apart */
     align-items: center;
     margin-bottom: 60px; /* Add margin at the bottom to create space */
     flex-wrap: wrap; /* Allow content to wrap in landscape orientation */
