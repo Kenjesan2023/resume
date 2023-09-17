@@ -1,11 +1,12 @@
 <style>
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    color: #000; /* Set the default font color to black */
-    width: 8.5in; /* Set the width to match letter size */
-    height: 11in; /* Set the height to match letter size */
+     body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center; /* Center horizontally */
+            align-items: center; /* Center vertically */
+            height: 100vh; /* Ensure full viewport height */
+            background-color: #f0f0f0; /* Background color for the page */
 }
 
 .header {
