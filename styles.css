@@ -86,6 +86,14 @@ body {
     margin: 0; /* Remove margin to eliminate spaces between boxes */
     padding: 20px;
 }
+.box2 {
+    background-color: #FFFFFF;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    color: #000;
+    margin: 0; /* Remove margin to eliminate spaces between boxes */
+    padding: 20px;
+}
 h2 {
     background-color: #000;
 }
