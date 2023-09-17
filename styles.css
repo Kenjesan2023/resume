@@ -73,7 +73,8 @@ body {
 }
 .container {
     display: grid;
-    grid-template-rows: repeat(2, 1fr); /* Create two equal columns */
+    grid-template-columns: 1fr 1fr; /* Create two equal columns */
+    grid-template-rows: repeat(3, 1fr); /* Create three equal rows */
     grid-gap: 0; /* Remove the gap between boxes */
 }
 
