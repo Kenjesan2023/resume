@@ -121,7 +121,8 @@ h3 {
 }
 .footer {
     text-align: center;
-    margin-top: 20px;
+    margin-top: auto; /* Push the footer to the bottom */
     color: #777;
- }
+}
+
 </style>
