@@ -80,7 +80,8 @@ body {
 
 /* Adjust box padding */
 .box {
-    flex: 0 0 calc(33.333% - 10px);
+    width: 3cm; /* Set the width to 3cm */
+    height: 2cm; /* Set the height to 2cm */
     margin-bottom: 20px;
     background-color: #FFFEE0;
     border: 1px solid #ccc;
