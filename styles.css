@@ -11,8 +11,8 @@ body {
     color: #fff;
     padding: 20px;
     text-align: center;
-    width: 60cm; /* Set the width to 2 rulers (30cm each) */
-    height: 3cm; /* Set the height to 3cm */
+    width: 20cm; /* Set the width to 2 rulers (30cm each) */
+    height: 4cm; /* Set the height to 3cm */
     display: flex;
     flex-direction: column;
     justify-content: center;
