@@ -11,32 +11,14 @@ body {
     color: #fff;
     padding: 20px;
     text-align: center;
-    width: 60cm; /* Set the width to 2 rulers (30cm each) */
-    height: 3cm; /* Set the height to 3cm */
+    width: 20.5cm; /* Set the width to 2 rulers (30cm each) */
+    height: 4cm; /* Set the height to 3cm */
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-bottom: 40px; /* Add margin at the bottom to create space */
     flex-wrap: wrap; /* Allow content to wrap in landscape orientation */
-    margin-bottom: 20px; /* Add margin at the bottom to create space */
-}
-
-.box-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between; /* Distribute boxes evenly across rows */
-    width: 60cm; /* Set the width to match the header */
-    margin: 0 auto; /* Center the container */
-}
-
-.box {
-    background-color: #FFFEE0;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    color: #000;
-    padding: 20px;
-    text-align: center;
-    width: calc(50% - 10px); /* Two boxes per row with a small gap */
-    margin-bottom: 10px; /* Add a small gap between rows */
 }
 
 .header h1 {
@@ -93,6 +75,16 @@ body {
     grid-template-columns: repeat(2, 1fr); /* Create two equal columns */
     grid-gap: 0; /* Remove the gap between boxes */
 }
+
+.box {
+    background-color: #FFFEE0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    color: #000;
+    margin: 0; /* Remove margin to eliminate spaces between boxes */
+    padding: 20px;
+}
+
 /* Apply background color to all h2 elements */
 h2 {
     background-color: #000;
