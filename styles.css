@@ -75,6 +75,7 @@ body {
     font-weight: normal; /* Remove bold font-weight */
     margin: 0; /* Remove margin */
     text-align: center;
+    color: #FFAA33;
 }
 
 /* Adjust box padding */
