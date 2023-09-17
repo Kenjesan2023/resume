@@ -104,8 +104,6 @@
     color: #000;
     margin: 0; /* Remove margin to eliminate spaces between boxes */
     padding: 20px;
-    min-width: 200px; /* Set a minimum width for the boxes */
-    min-height: 100px; /* Set a minimum height for the boxes */
 }
 .box2 {
     background-color: #FFFFFF;
@@ -114,8 +112,6 @@
     color: #000;
     margin: 0; /* Remove margin to eliminate spaces between boxes */
     padding: 20px;
-    min-width: 200px; /* Set a minimum width for the boxes */
-    min-height: 100px; /* Set a minimum height for the boxes */
 }
 h2 {
     background-color: #000;
