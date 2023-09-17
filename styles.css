@@ -68,12 +68,15 @@ body {
     text-align: center;
     color: #FFAA33;
 }
-
-/* Adjust box padding */
 .container {
     display: grid;
     grid-template-columns: repeat(2, 1fr); /* Create two equal columns */
     grid-gap: 0; /* Remove the gap between boxes */
+    width: 60cm; /* Set the width to match the header */
+    margin: 0 auto; /* Center the container */
+    justify-content: center; /* Center the boxes horizontally */
+    align-content: flex-start; /* Start from the top of the container */
+    align-items: flex-start; /* Start from the top of each column */
 }
 
 .box {
@@ -81,8 +84,9 @@ body {
     border: 1px solid #ccc;
     border-radius: 5px;
     color: #000;
-    margin: 0; /* Remove margin to eliminate spaces between boxes */
     padding: 20px;
+    text-align: center;
+    margin: 0; /* Remove margin to eliminate spaces between boxes */
 }
 
 /* Apply background color to all h2 elements */
