@@ -21,7 +21,6 @@
     justify-content: center; /* Space elements apart */
     align-items: center;
     flex-wrap: wrap; /* Allow content to wrap in landscape orientation */
-    margin-bottom: 40px;
 }
 
 .header h1 {
