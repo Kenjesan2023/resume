@@ -87,6 +87,8 @@ body {
     grid-gap: 0; /* Remove the gap between boxes */
     width: 8.5in; /* Set the width to match letter size (8.5 inches) */
     height: 11in; /* Set the height to match letter size (11 inches) */
+    margin: 0 auto; /* Center the container horizontally on the page */
+    margin-top: 1in; /* Add top margin to center vertically on the page */
 }
 .box {
     background-color: #FFFEE0;
