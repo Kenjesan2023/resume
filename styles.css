@@ -70,6 +70,7 @@
     padding: 10px; /* Adjust padding as needed */
     border-radius: 5px 5px 0 0; /* Round the top corners */
     text-align: center;
+    margin: 0;
 }
 
 /* Style the headers for left-boxes and right-boxes */
