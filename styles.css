@@ -42,8 +42,6 @@ body {
     height: 100%;
     object-fit: cover;
 }
-
-/* Add a common class for box headers */
 .box-header {
     background-color: #1B0000; /* Set the header background color */
     color: #fff; /* Set the text color in the header */
@@ -60,8 +58,6 @@ body {
 .right-boxes .box-header {
     border-bottom: 1px solid #ccc; /* Add a bottom border to separate header from content */
 }
-
-/* Update the box-title styles to remove margin and change font-weight */
 .box-title {
     font-weight: normal; /* Remove bold font-weight */
     margin: 0; /* Remove margin */
@@ -88,8 +84,6 @@ body {
     text-align: center;
     margin: 0; /* Remove margin to eliminate spaces between boxes */
 }
-
-/* Apply background color to all h2 elements */
 h2 {
     background-color: #000;
 }
