@@ -76,6 +76,8 @@ body {
     grid-template-columns: 1fr 1fr; /* Create two equal columns */
     grid-template-rows: repeat(3, 1fr); /* Create three equal rows */
     grid-gap: 0; /* Remove the gap between boxes */
+    width: 8.5in; /* Set the width to match letter size */
+    height: 11in; /* Set the height to match letter size */
 }
 
 .box {
