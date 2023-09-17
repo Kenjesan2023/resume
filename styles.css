@@ -36,6 +36,7 @@
     color: #FFAA33; /* Set text color for h5 */
     font-size: 16px; /* Set the font size for h5 */
     font-family: "Verdana", sans-serif;
+    text-transform: uppercase;
 }
 .h4 {
     margin: 0; /* Remove any default margin on the h4 element */
