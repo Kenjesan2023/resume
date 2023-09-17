@@ -97,8 +97,6 @@
     margin-top: 1in; /* Add top margin to center vertically on the page */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     border: 1px solid #ccc; /* Add border for the form */
-    align-items: center; /* Center-align content horizontally */
-    justify-content: center; /* Center-align content vertically */
 
 }
 .box {
