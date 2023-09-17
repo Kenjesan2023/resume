@@ -119,11 +119,8 @@ h3 {
     background-color: #65350F;
 }
 .footer {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    color: #fff;
-    padding: 10px;
+            text-align: center;
+            margin-top: 20px;
+            color: #777;
  }
 </style>
