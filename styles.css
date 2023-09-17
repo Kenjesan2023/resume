@@ -28,6 +28,8 @@ body {
     margin: 0; /* Remove any default margin on the h1 element */
     color: #FFAA33; /* Set the text color to white for contrast */
     font-weight: bold;
+    font-family: "Trebuchet MS", sans-serif;
+
 }
 .h4 {
     margin: 0; /* Remove any default margin on the h4 element */
