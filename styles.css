@@ -93,20 +93,16 @@
             text-align: center;
             color: #FFAA33;
         }
-
         .container {
             display: grid;
             grid-template-columns: repeat(2, 1fr); /* Create two columns */
-            grid-template-rows: repeat(3, 1fr); /* Adjust rows to auto */
-            grid-gap: 0; /* Remove the gap between boxes */
-            width: 8.5in; /* Set the width to match letter size (8.5 inches) */
-            height: 11in; /* Adjust height to auto */
+            grid-gap: 20px; /* Add gap between boxes */
+            width: 100%; /* Full width */
+            max-width: 960px; /* Set a maximum width */
             margin: 0 auto; /* Center the container horizontally on the page */
-            margin-top: 1in; /* Add top margin to center vertically on the page */
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
             border: 1px solid #ccc; /* Add border for the form */
         }
-
         .box {
             background-color: #2E1503;
             border-radius: 5px;
