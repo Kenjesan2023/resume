@@ -89,10 +89,10 @@
 .container {
     display: grid;
     grid-template-columns: repeat(2, 1fr); /* Create two columns */
-    grid-template-rows: repeat(3, 1fr); /* Create three rows */
+    grid-template-rows: repeat(3, auto); /* Adjust rows to auto */
     grid-gap: 0; /* Remove the gap between boxes */
     width: 8.5in; /* Set the width to match letter size (8.5 inches) */
-    height: 11in; /* Set the height to match letter size (11 inches) */
+    height: auto; /* Adjust height to auto */
     margin: 0 auto; /* Center the container horizontally on the page */
     margin-top: 1in; /* Add top margin to center vertically on the page */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
