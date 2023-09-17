@@ -12,7 +12,7 @@ body {
     padding: 20px;
     text-align: center;
     width: 80%;
-    height: 10cm; /* Adjust the height as needed */
+    height: 60cm; /* Set the height to approximately 2 rulers (30cm each) */
     display: flex;
     flex-direction: column;
     justify-content: center;
