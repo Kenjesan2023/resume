@@ -131,4 +131,7 @@ h3 {
 .white-text {
     color: white;
 }
-
+.box2 p {
+    text-align: left; /* Align paragraphs to the left within the box */
+}
+<style>
