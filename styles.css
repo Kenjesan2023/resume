@@ -134,4 +134,7 @@ h3 {
 .box2 p {
     text-align: left; /* Align paragraphs to the left within the box */
 }
+.box p {
+    text-align: left; /* Align paragraphs to the left within the box */
+}
 <style>
