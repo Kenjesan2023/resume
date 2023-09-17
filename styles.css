@@ -43,16 +43,6 @@ body {
     object-fit: cover;
 }
 
-.container {
-    max-width: 8.5in; /* Set the max-width to match letter-sized bond paper */
-    margin: 16px auto;
-    padding: 20px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    border: 1px solid #ccc;
-}
-
-/* ... Your existing styles ... */
-
 /* Add a common class for box headers */
 .box-header {
     background-color: #1B0000; /* Set the header background color */
@@ -80,13 +70,19 @@ body {
 }
 
 /* Adjust box padding */
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Create two equal columns */
+    grid-gap: 0; /* Remove the gap between boxes */
+}
+
 .box {
-    flex: 0 0 calc(33.333% - 10px);
-    margin-bottom: 20px;
     background-color: #FFFEE0;
     border: 1px solid #ccc;
     border-radius: 5px;
     color: #000;
+    margin: 0; /* Remove margin to eliminate spaces between boxes */
+    padding: 20px;
 }
 
 /* Apply background color to all h2 elements */
