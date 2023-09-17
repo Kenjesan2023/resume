@@ -75,11 +75,23 @@
 
 /* Style the headers for left-boxes and right-boxes */
 .left-boxes .box-header {
-    border-bottom: 1px solid #ccc; /* Add a bottom border to separate header from content */
+    background-color: #1B0000; /* Set the header background color */
+    color: #fff; /* Set the text color in the header */
+    padding: 10px; /* Adjust padding as needed */
+    border-radius: 5px 5px 0 0; /* Round the top corners */
+    text-align: center;
+    margin: 0; /* Remove margin to fit the box */
+    border-bottom: 1px solid #ccc; /* Add a
 }
 
 .right-boxes .box-header {
-    border-bottom: 1px solid #ccc; /* Add a bottom border to separate header from content */
+    background-color: #1B0000; /* Set the header background color */
+    color: #fff; /* Set the text color in the header */
+    padding: 10px; /* Adjust padding as needed */
+    border-radius: 5px 5px 0 0; /* Round the top corners */
+    text-align: center;
+    margin: 0; /* Remove margin to fit the box */
+    border-bottom: 1px solid #ccc; /* Add a
 }
 .box-title {
     font-weight: normal; /* Remove bold font-weight */
