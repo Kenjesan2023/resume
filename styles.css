@@ -27,6 +27,13 @@ body {
     background-color: rgb(92, 64, 51); /* Set the background color */
     color: #fff; /* Set the text color to white for contrast */
 }
+.header h4 {
+    flex-grow: 1; /* Occupy the available vertical space within the header */
+    margin: 0; /* Remove any default margin on the h1 element */
+    background-color: rgb(92, 64, 51); /* Set the background color */
+    color: #fff; /* Set the text color to white for contrast */
+}
+
 
 .circle-frame {
     width: 150px;
