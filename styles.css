@@ -20,7 +20,6 @@
     flex-direction: row; /* Align content horizontally */
     justify-content: center; /* Space elements apart */
     align-items: center;
-    margin-bottom: 80px; /* Add margin at the bottom to create space */
     flex-wrap: wrap; /* Allow content to wrap in landscape orientation */
 }
 
