@@ -21,7 +21,7 @@
     justify-content: center; /* Space elements apart */
     align-items: center;
     flex-wrap: wrap; /* Allow content to wrap in landscape orientation */
-    margin-bottom: 20px; 
+    margin-bottom: 20px;
 }
 
 .header h1 {
@@ -58,6 +58,7 @@
     border-radius: 50%;
     overflow: hidden;
     margin-right: 20px; /* Add margin to the right for spacing */
+    float: left; /* Float the element to the left */
 }
 
 .circle-frame img {
