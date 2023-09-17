@@ -36,7 +36,6 @@
     color: #FFAA33; /* Set text color for h5 */
     font-size: 16px; /* Set the font size for h5 */
     font-family: "Verdana", sans-serif;
-    text-transform: uppercase;
 }
 .h4 {
     margin: 0; /* Remove any default margin on the h4 element */
@@ -48,6 +47,7 @@
     color: #000000; /* Set the text color to #FFAA33 */
     font-weight: bold; /* Make the text bold */
     font-size: 24px; /* Set the font size to your desired size (e.g., 24px) */
+    text-transform: uppercase;
 }
 
 .circle-frame {
