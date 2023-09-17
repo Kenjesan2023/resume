@@ -33,12 +33,15 @@ body {
 }
 .h4 {
     margin: 0; /* Remove any default margin on the h4 element */
-    background-color: rgb(92, 64, 51); /* Set the background color */
+    text-align: center; /* Center-align the text horizontally */
+    font-family: "Georgia", serif;
+}
+
+.h4 span {
+    background-color: rgb(92, 64, 51); /* Set the background color for the words */
     color: #FFAA33; /* Set the text color to #FFAA33 */
     font-weight: bold; /* Make the text bold */
     font-size: 24px; /* Set the font size to your desired size (e.g., 24px) */
-    text-align: center;
-    font-family: "Georgia", serif;
 }
 
 .circle-frame {
