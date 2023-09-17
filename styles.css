@@ -123,14 +123,11 @@ h3 {
     margin-top: auto; /* Push the footer to the bottom */
     color: #777;
 }
-/* Style the golden "+" sign */
 .golden {
     color: #FFAA33; /* Golden yellow color */
 }
 
-/* Style the phone number text */
-p strong {
+.white-text {
     color: white;
 }
 
-</style>
