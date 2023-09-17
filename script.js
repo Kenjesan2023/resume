@@ -1,4 +1,4 @@
-/ script.js
+// script.js
 
 // Function to be executed when the page loads
 function onPageLoad() {
