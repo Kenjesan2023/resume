@@ -90,11 +90,11 @@ body {
     color: #000;
 }
 
-/* ... Your existing styles ... */
-
-
 /* Apply background color to all h2 elements */
 h2 {
+    background-color: #000;
+}
+h3 {
     background-color: #65350F;
 }
 
