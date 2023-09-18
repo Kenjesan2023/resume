@@ -137,6 +137,7 @@
 
         .golden {
             color: #FFAA33; /* Golden yellow color */
+            font-weight: normal; /* Remove bold font weight */
         }
        .white-text {
             color: white; /* Set the text color to white */
