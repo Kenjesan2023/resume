@@ -138,9 +138,9 @@
         .golden {
             color: #FFAA33; /* Golden yellow color */
         }
-
-        .white-text {
-            color: white;
+       .white-text {
+            color: white; /* Set the text color to white */
+            font-weight: normal; /* Remove bold font weight */
         }
 
         .box2 p {
