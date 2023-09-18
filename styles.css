@@ -22,6 +22,12 @@
             flex-wrap: wrap; /* Allow content to wrap in landscape orientation */
             margin-bottom: 10px;
         }
+        .header h6 {
+            margin: 0;
+            color: #FFFFFF; /* Set text color for h5 */
+            font-size: 16px; /* Set the font size for h5 */
+            font-family: "Verdana", sans-serif;
+        }
         .header h1 {
             flex-grow: 1; /* Occupy the available vertical space within the header */
             margin: 0; /* Remove any default margin on the h1 element */
