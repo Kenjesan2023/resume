@@ -183,5 +183,28 @@
     position: absolute;
     left: -20px; /* Adjust the left position to align the bullet */
 }
+.dots {
+    display: inline-block;
+    width: 50px; /* Adjust the width as needed to control the spacing */
+    text-align: right;
+}
+
+.yellow-dot {
+    display: inline-block;
+    width: 6px; /* Adjust the dot size as needed */
+    height: 6px; /* Adjust the dot size as needed */
+    background-color: yellow; /* Yellow color */
+    border-radius: 50%; /* Make it round */
+    margin: 0 2px; /* Adjust the spacing between dots */
+}
+
+.black-dot {
+    display: inline-block;
+    width: 6px; /* Adjust the dot size as needed */
+    height: 6px; /* Adjust the dot size as needed */
+    background-color: black; /* Black color */
+    border-radius: 50%; /* Make it round */
+    margin: 0 2px; /* Adjust the spacing between dots */
+}
 
     </style>
