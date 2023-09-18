@@ -185,27 +185,26 @@
     left: -20px; /* Adjust the left position to align the bullet */
 }
 .dots {
-    display: inline-block;
+    display: inline-block; /* Display dots in a row */
+    vertical-align: middle;
     width: 50px; /* Adjust the width as needed to control the spacing */
     text-align: right;
+    white-space: nowrap; /* Prevent line breaks */
+}
+.yellow-dot, .black-dot {
+    display: inline-block; /* Display each dot in a row */
+    width: 20px; /* Adjust the dot size as needed */
+    height: 20px; /* Adjust the dot size as needed */
+    border-radius: 50%; /* Make it round */
+    margin: 0 2px; /* Adjust the spacing between dots */
 }
 
 .yellow-dot {
-    display: inline-block;
-    width: 20px; /* Adjust the dot size as needed */
-    height: 20px; /* Adjust the dot size as needed */
-    background-color: yellow; /* Yellow color */
-    border-radius: 50%; /* Make it round */
-    margin: 0 2px; /* Adjust the spacing between dots */
+    background-color: #FFAA33; /* Yellow color */
 }
 
 .black-dot {
-    display: inline-block;
-    width: 20px; /* Adjust the dot size as needed */
-    height: 20px; /* Adjust the dot size as needed */
     background-color: black; /* Black color */
-    border-radius: 50%; /* Make it round */
-    margin: 0 2px; /* Adjust the spacing between dots */
 }
 
     </style>
