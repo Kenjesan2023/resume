@@ -185,7 +185,7 @@
     left: -20px; /* Adjust the left position to align the bullet */
 }
 .dots {
-    display: flex; /* Display dots in a row */
+    display: inline-block; /* Display dots in a row */
     align-items: center; /* Vertically align dots in the center */
     width: 50px; /* Adjust the width as needed to control the spacing */
     text-align: right;
