@@ -159,5 +159,23 @@
     position: absolute;
     left: -20px; /* Adjust the left position to align the bullet */
 }
+.box.right-boxes ul {
+    list-style: none; /* Remove default list bullets */
+    padding-left: 0; /* Remove default left padding */
+}
+
+/* Style the list items */
+.box.right-boxes ul li {
+    margin-left: 20px; /* Add left margin to create space for bullets */
+    position: relative; /* Create a positioning context */
+}
+
+/* Style the year with white text as a bullet */
+.box.right-boxes ul li::before {
+    content: "\2022"; /* Unicode bullet character */
+    color: white; /* Set the color to white */
+    position: absolute;
+    left: -20px; /* Adjust the left position to align the bullet */
+}
 
     </style>
