@@ -206,37 +206,39 @@
 .black-dot {
     background-color: black; /* Black color */
 }
-        .skills-list {
-            list-style-type: none;
-            padding: 0;
+ .skills {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
         }
 
-        .skills-list li {
-            display: flex; /* Display items in a row */
-            align-items: center; /* Vertically center items */
-            margin-bottom: 20px;
+        .skill {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
         }
 
         .skill-name {
-            flex: 1; /* Allow the text to grow and take up available space */
+            flex: 1;
+            margin-right: 10px;
         }
 
         .skill-bar {
             background-color: #ccc;
             height: 20px;
             border-radius: 5px;
-            flex: 2; /* Make the skill bar take up 2 times the width of text */
+            flex: 2;
         }
 
         .skill-progress {
-            background-color: #FFAA33; /* Adjust the color of the progress bar */
+            background-color: #FFAA33;
             height: 100%;
             border-radius: 5px;
-            width: 60%; /* Adjust the initial width of the progress bar */
+            width: 60%;
             text-align: right;
             padding-right: 5px;
             line-height: 20px;
             font-weight: bold;
-            color: #000; /* Adjust the text color of the percentage */
+            color: #000;
         }
     </style>
