@@ -206,39 +206,41 @@
 .black-dot {
     background-color: black; /* Black color */
 }
- .skills {
-            display: flex;
-            flex-direction: column;
-            align-items: flex-start;
-        }
+.skills {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
 
-        .skill {
-            display: flex;
-            align-items: center;
-            margin-bottom: 10px;
-        }
+.skill {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    width: 100%; /* Ensure the skill bar spans the width of the container */
+}
 
-        .skill-name {
-            flex: 1;
-            margin-right: 10px;
-        }
+.skill-name {
+    flex: 1;
+    margin-right: 10px;
+}
 
-        .skill-bar {
-            background-color: #ccc;
-            height: 20px;
-            border-radius: 5px;
-            flex: 2;
-        }
+.skill-bar {
+    background-color: #ccc;
+    height: 15px;
+    border-radius: 5px;
+    flex: 2;
+}
 
-        .skill-progress {
-            background-color: #FFAA33;
-            height: 100%;
-            border-radius: 5px;
-            width: 50%;
-            text-align: right;
-            padding-right: 5px;
-            line-height: 20px;
-            font-weight: bold;
-            color: #000;
-        }
+.skill-progress {
+    background-color: #FFAA33;
+    height: 100%; /* Adjust the height to 100% to fill the skill bar vertically */
+    border-radius: 5px;
+    width: 50%;
+    text-align: right;
+    padding-right: 5px;
+    line-height: 20px;
+    font-weight: bold;
+    color: #000;
+}
+
     </style>
