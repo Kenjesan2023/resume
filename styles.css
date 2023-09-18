@@ -183,6 +183,7 @@
     color: white; /* Set the color to white */
     position: absolute;
     left: -20px; /* Adjust the left position to align the bullet */
+}
 .dots {
     display: inline-block; /* Display dots in a row */
     vertical-align: middle;
@@ -190,7 +191,7 @@
     text-align: right;
 }
 .yellow-dot, .black-dot {
-    display: inline-block; /* Display each dot in a row */
+    display: block;
     width: 20px; /* Adjust the dot size as needed */
     height: 20px; /* Adjust the dot size as needed */
     border-radius: 50%; /* Make it round */
