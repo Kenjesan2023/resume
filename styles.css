@@ -206,5 +206,31 @@
 .black-dot {
     background-color: black; /* Black color */
 }
+.skills-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.skills-list li {
+    margin-bottom: 20px;
+}
+
+.skill-bar {
+    background-color: #ccc;
+    height: 20px;
+    border-radius: 5px;
+    position: relative;
+}
+
+.skill-progress {
+    background-color: #FFAA33; /* Adjust the color of the progress bar */
+    height: 100%;
+    border-radius: 5px;
+    text-align: right;
+    padding-right: 5px;
+    line-height: 20px;
+    font-weight: bold;
+    color: #000; /* Adjust the text color of the percentage */
+}
 
     </style>
