@@ -225,14 +225,14 @@
 
         .skill-bar {
             background-color: #ccc;
-            height: 15px;
+            height: 20px;
             border-radius: 5px;
             flex: 2;
         }
 
         .skill-progress {
             background-color: #FFAA33;
-            height: 90%;
+            height: 100%;
             border-radius: 5px;
             width: 50%;
             text-align: right;
