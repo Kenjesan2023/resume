@@ -27,6 +27,7 @@
             color: #7E7E7E; /* Set text color for h5 */
             font-size: 30px; /* Set the font size for h5 */
             font-family: sans-serif;
+            text-align: justify;
         }
         .header h1 {
             flex-grow: 1; /* Occupy the available vertical space within the header */
