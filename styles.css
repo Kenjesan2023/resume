@@ -185,7 +185,8 @@
     left: -20px; /* Adjust the left position to align the bullet */
 }
 .dots {
-    display: inline-block;
+    display: flex; /* Display dots in a row */
+    align-items: center; /* Vertically align dots in the center */
     width: 50px; /* Adjust the width as needed to control the spacing */
     text-align: right;
 }
@@ -194,7 +195,7 @@
     display: inline-block;
     width: 6px; /* Adjust the dot size as needed */
     height: 6px; /* Adjust the dot size as needed */
-    background-color: yellow; /* Yellow color */
+    background-color: #FFAA33; /* Yellow color */
     border-radius: 50%; /* Make it round */
     margin: 0 2px; /* Adjust the spacing between dots */
 }
