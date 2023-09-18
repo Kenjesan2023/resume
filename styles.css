@@ -193,8 +193,8 @@
 
 .yellow-dot {
     display: inline-block;
-    width: 6px; /* Adjust the dot size as needed */
-    height: 6px; /* Adjust the dot size as needed */
+    width: 10px; /* Adjust the dot size as needed */
+    height: 10px; /* Adjust the dot size as needed */
     background-color: #FFAA33; /* Yellow color */
     border-radius: 50%; /* Make it round */
     margin: 0 2px; /* Adjust the spacing between dots */
@@ -202,8 +202,8 @@
 
 .black-dot {
     display: inline-block;
-    width: 6px; /* Adjust the dot size as needed */
-    height: 6px; /* Adjust the dot size as needed */
+    width: 10px; /* Adjust the dot size as needed */
+    height: 10px; /* Adjust the dot size as needed */
     background-color: black; /* Black color */
     border-radius: 50%; /* Make it round */
     margin: 0 2px; /* Adjust the spacing between dots */
