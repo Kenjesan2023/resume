@@ -137,4 +137,7 @@
             border: 1px solid #ccc; /* Set the line color and thickness */
             margin: 10px 0; /* Add spacing above and below the lines */
         }
+        li.white-text {
+           color: white;
+       }
     </style>
