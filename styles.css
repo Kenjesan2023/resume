@@ -95,11 +95,12 @@
            grid-template-rows: repeat(3, 1fr); /* Adjust rows to auto */
            grid-gap: 0; /* Remove the gap between boxes */
            width: 8.5in; /* Set the width to match letter size (8.5 inches) */
-           height: 11in; /* Adjust height to auto */
+           height: 13in; /* Adjust height to auto */
            margin: 0 auto; /* Center the container horizontally on the page */
            margin-top: 1in; /* Add top margin to center vertically on the page */
            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
            border: 1px solid #ccc; /* Add border for the form */
+           background-color: #E3C565;
         }
         .box {
             background-color: #2E1503;
