@@ -158,32 +158,4 @@
             border: 1px solid #ccc; /* Set the line color and thickness */
             margin: 10px 0; /* Add spacing above and below the lines */
         }
-       .timeline {
-            list-style: none;
-            padding: 0;
-        }
-
-        .timeline-item {
-            display: flex;
-            margin-bottom: 20px;
-        }
-
-        .timeline-dot {
-            width: 20px;
-            height: 20px;
-            background-color: #FFAA33;
-            border-radius: 50%;
-            margin-right: 10px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-
-        .timeline-content {
-            flex: 1;
-            background-color: #FFFFFF;
-            border: 1px solid #ccc;
-            border-radius: 5px;
-            padding: 10px;
-        }
     </style>
