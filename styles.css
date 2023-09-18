@@ -225,7 +225,7 @@
 
         .skill-bar {
             background-color: #ccc;
-            height: 20px;
+            height: 15px;
             border-radius: 5px;
             flex: 2;
         }
