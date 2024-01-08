@@ -252,4 +252,31 @@
         margin: 0 10px; /* Adjust the margin as needed */
         font-size: 35px; /* Adjust the font size as needed */
 }
+.tool {
+        margin-bottom: 20px;
+    }
+
+    .progress-circle {
+        width: 50px;
+        height: 50px;
+        background-color: #eee;
+        border-radius: 50%;
+        position: relative;
+        margin-right: 10px;
+    }
+
+    .progress-circle::after {
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+        clip: rect(0, 50px, 50px, 25px);
+        background-color: #3498db; /* Set the progress color */
+        transform: rotate(90deg);
+    }
+
+    .tool-progress {
+        font-weight: bold;
+    }
     </style>
