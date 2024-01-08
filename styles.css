@@ -243,5 +243,13 @@
     font-weight: bold;
     color: #000;
 }
+ .social-icons {
+        text-align: center;
+}
 
+.social-icons a {
+        display: inline-block;
+        margin: 0 10px; /* Adjust the margin as needed */
+        font-size: 24px; /* Adjust the font size as needed */
+}
     </style>
